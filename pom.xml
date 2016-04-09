@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis-parent</artifactId>
+    <version>26</version>
+    <relativePath />
+  </parent>
+
+  <groupId>org.mybatis.caches</groupId>
+  <artifactId>mybatis-couchbase</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>mybatis-couchbase</name>
+  <description>couchbase support for MyBatis Cache</description>
+  <url>http://www.mybatis.org/caches/couchbase/</url>
+
+  <scm>
+    <url>http://github.com/mybatis/couchbase-cache</url>
+    <connection>scm:git:ssh://github.com/mybatis/couchbase-cache.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mybatis/couchbase-cache.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issue Management</system>
+    <url>https://github.com/mybatis/couchbase-cache/issues</url>
+  </issueManagement>
+  <ciManagement>
+    <system>Travis CI</system>
+    <url>https://travis-ci.org/mybatis/couchbase-cache</url>
+  </ciManagement>
+  <distributionManagement>
+    <site>
+      <id>gh-pages</id>
+      <name>Mybatis GitHub Pages</name>
+      <url>git:ssh://git@github.com/mybatis/couchbase-cache.git?gh-pages#</url>
+    </site>
+  </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.3.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
