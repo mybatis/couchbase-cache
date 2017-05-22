@@ -34,12 +34,12 @@
 
   <name>mybatis-couchbase</name>
   <description>couchbase support for MyBatis Cache</description>
-  <url>http://www.mybatis.org/caches/couchbase/</url>
+  <url>https://www.mybatis.org/caches/couchbase/</url>
 
   <inceptionYear>2016</inceptionYear>
 
   <scm>
-    <url>http://github.com/mybatis/couchbase-cache</url>
+    <url>https://github.com/mybatis/couchbase-cache</url>
     <connection>scm:git:ssh://github.com/mybatis/couchbase-cache.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/couchbase-cache.git</developerConnection>
     <tag>HEAD</tag>
@@ -59,6 +59,10 @@
       <url>git:ssh://git@github.com/mybatis/couchbase-cache.git?gh-pages#</url>
     </site>
   </distributionManagement>
+
+  <properties>
+    <clirr.comparisonVersion>1.0.0-SNAPSHOT</clirr.comparisonVersion>
+  </properties>
 
   <dependencies>
     <dependency>
