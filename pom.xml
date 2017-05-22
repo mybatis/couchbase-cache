@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2016 the original author or authors.
+       Copyright 2016-2017 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -34,12 +34,12 @@
 
   <name>mybatis-couchbase</name>
   <description>couchbase support for MyBatis Cache</description>
-  <url>http://www.mybatis.org/caches/couchbase/</url>
+  <url>https://www.mybatis.org/caches/couchbase/</url>
 
   <inceptionYear>2016</inceptionYear>
 
   <scm>
-    <url>http://github.com/mybatis/couchbase-cache</url>
+    <url>https://github.com/mybatis/couchbase-cache</url>
     <connection>scm:git:ssh://github.com/mybatis/couchbase-cache.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/couchbase-cache.git</developerConnection>
     <tag>HEAD</tag>
@@ -60,6 +60,10 @@
     </site>
   </distributionManagement>
 
+  <properties>
+    <clirr.comparisonVersion>1.0.0-SNAPSHOT</clirr.comparisonVersion>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.mybatis</groupId>
@@ -69,7 +73,7 @@
     <dependency>
       <groupId>com.couchbase.client</groupId>
       <artifactId>java-client</artifactId>
-      <version>2.4.4</version>
+      <version>2.4.5</version>
     </dependency>
 
     <dependency>
