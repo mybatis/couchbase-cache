@@ -24,18 +24,19 @@
   xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
 
   <properties>
-    <title>MyBatis Caffeine | Reference Documentation</title>
+    <title>MyBatis Couchbase | Reference Documentation</title>
     <author email="mybatis-dev@googlegroups.com">The MyBatis Team</author>
   </properties>
 
   <body>
-    <section name="MyBatis Caffeine integration - Reference Documentation">
+    <section name="MyBatis Couchbase integration - Reference Documentation">
 
-            <p><a href="https://github.com/ben-manes/caffeine">Caffeine</a> is an open source clustering
-            and highly scalable data distribution platform for Java.</p>
+            <p><a href="https://github.com/couchbase/couchbase-java-client">Couchbase</a> is the
+            official driver for Couchbase when working with Java (or on the JVM). It provides management,
+            CRUD and query facilities through both asynchronous and synchronous APIs..</p>
             
-            <p>Users that want to use Caffeine into their applications, have to download the
-            <a href="https://github.com/ben-manes/caffeine/releases">zip bundle</a>,
+            <p>Users that want to use Couchbase into their applications, have to download the
+            <a href="https://github.com/couchbase/couchbase-java-client/releases">zip bundle</a>,
             decompress it and add the jars in the classpath.
             Apache Maven users instead can simply add in the <code>pom.xml</code> the following dependency:</p>
             
@@ -43,8 +44,8 @@
   ...
   <dependency>
     <groupId>org.mybatis.caches</groupId>
-    <artifactId>mybatis-caffeine</artifactId>
-    <version>x.x.x</version>
+    <artifactId>mybatis-couchbase</artifactId>
+    <version>${project.version}</version>
   </dependency>
   ...
 </dependencies>]]></source>
@@ -52,7 +53,7 @@
             <p>then, just configure it in the mapper XML</p>
             <source><![CDATA[<mapper namespace="org.acme.FooMapper">
 
-  <cache type="org.mybatis.caches.caffeine.CaffeineCache"/>
+  <cache type="org.mybatis.caches.couchbase.CouchbaseCache"/>
 
   ...
 
@@ -66,10 +67,10 @@
 				<thead>
 					<tr>
 						<th>
-							MyBatis-Caffeine
+							MyBatis-Couchbase
 						</th>
 						<th>
-							Caffeine
+							Couchbase
 						</th>
 					</tr>
 				</thead>
@@ -88,7 +89,7 @@
 
 		  <subsection name="Adapters">
 
-            <p>There are just one Caffeine cache adapters.</p>
+            <p>There are just one Couchbase cache adapters.</p>
             
             <table>
             <thead>
@@ -99,7 +100,7 @@
             </thead>
             <tbody>
             <tr>
-              <td><code>org.mybatis.caches.caffeine.CaffeineCache</code></td>
+              <td><code>org.mybatis.caches.couchbase.CouchbaseCache</code></td>
               <td>No-logging adapter.</td>
             </tr>
             </tbody>
@@ -108,8 +109,8 @@
             <p>Logging versions of the adapter log cache hit ratios using the namespace as a looger.</p>
             
             <p>Please refer to the official
-            <a href="https://github.com/ben-manes/caffeine/wiki">documentation</a>
-            to know more details how to configure Caffeine as Cache.</p>
+            <a href="https://github.com/couchbase/couchbase-java-client/wiki">documentation</a>
+            to know more details how to configure Couchbase as Cache.</p>
             </subsection>
             
         </section>
