@@ -19,3 +19,4 @@
 velocity.log
 /bin
 /derby.log
+.mvn/wrapper/maven-wrapper.jar
