@@ -15,7 +15,7 @@
  */
 package org.mybatis.caches.couchbase;
 
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 
 /**
  * 
@@ -25,7 +25,7 @@ public class CouchbaseCacheTest {
 
   private CouchbaseCache cache;
 
-  @Before
+  @BeforeEach
   public void setup() {
   }
 
