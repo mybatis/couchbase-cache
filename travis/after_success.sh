@@ -31,7 +31,7 @@ echo "Current commit detected: ${commit_message}"
 # 4. Notify Coveralls.
 # 5. Deploy site
 
-if [ $TRAVIS_REPO_SLUG == "mybatis/couchebase-cache" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ] && [[ "$commit_message" != *"[maven-release-plugin]"* ]]; then
+if [ $TRAVIS_REPO_SLUG == "mybatis/couchbase-cache" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ] && [[ "$commit_message" != *"[maven-release-plugin]"* ]]; then
 
   if [ $TRAVIS_JDK_VERSION == "openjdk8" ]; then
 
