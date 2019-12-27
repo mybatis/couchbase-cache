@@ -14,4 +14,6 @@ MyBatis-couchbase extension couchbase support for MyBatis Cache.
 Essentials
 ----------
 
+*** NOTICE: Code has not been implemented, please add support if you would like to see a release ***
+
 * [See the docs](http://mybatis.github.io/couchbase-cache/)
