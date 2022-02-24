@@ -63,6 +63,7 @@
   <properties>
     <clirr.comparisonVersion>1.0.0-SNAPSHOT</clirr.comparisonVersion>
     <module.name>org.mybatis.caches.couchbase</module.name>
+    <project.build.outputTimestamp>1645112687</project.build.outputTimestamp>
   </properties>
 
   <dependencies>
