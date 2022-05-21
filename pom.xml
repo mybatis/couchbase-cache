@@ -49,8 +49,8 @@
     <url>https://github.com/mybatis/couchbase-cache/issues</url>
   </issueManagement>
   <ciManagement>
-    <system>Travis CI</system>
-    <url>https://travis-ci.org/mybatis/couchbase-cache</url>
+    <system>GitHub</system>
+    <url>https://github.com/mybatis/couchbase-cache/actions</url>
   </ciManagement>
   <distributionManagement>
     <site>
