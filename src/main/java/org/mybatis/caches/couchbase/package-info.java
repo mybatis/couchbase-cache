@@ -13,4 +13,7 @@
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
+/**
+ * Mybatis Cache for Couchbase Package.
+ */
 package org.mybatis.caches.couchbase;
