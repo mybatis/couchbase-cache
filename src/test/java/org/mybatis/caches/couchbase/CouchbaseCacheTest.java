@@ -18,7 +18,6 @@ package org.mybatis.caches.couchbase;
 import org.junit.jupiter.api.BeforeEach;
 
 /**
- *
  * @author Eddú Meléndez
  */
 public class CouchbaseCacheTest {
