@@ -7,7 +7,7 @@ MyBatis Couchbase Extension
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.mybatis.caches/mybatis-couchbase.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/caches/mybatis-couchbase/)
 [![License](https://img.shields.io/:license-apache-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-![mybatis-logo](http://mybatis.github.io/images/mybatis-logo.png)
+![mybatis-logo](https://mybatis.org/images/mybatis-logo.png)
 
 MyBatis-couchbase extension couchbase support for MyBatis Cache.
 
@@ -16,4 +16,4 @@ Essentials
 
 *** NOTICE: Code has not been implemented, please add support if you would like to see a release ***
 
-* [See the docs](http://mybatis.github.io/couchbase-cache/)
+* [See the docs](https://mybatis.org/couchbase-cache/)
