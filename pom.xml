@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2016-2023 the original author or authors.
+       Copyright 2016-2024 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>42</version>
-    <relativePath/>
+    <relativePath />
   </parent>
 
   <groupId>org.mybatis.caches</groupId>
@@ -61,6 +61,8 @@
 
   <properties>
     <clirr.comparisonVersion>1.0.0-SNAPSHOT</clirr.comparisonVersion>
+    <!-- Project has not been released before, skip clirr run on site -->
+    <clirr.skip>true</clirr.skip>
     <module.name>org.mybatis.caches.couchbase</module.name>
 
     <!-- Reproducible Builds -->
