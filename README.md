@@ -17,3 +17,5 @@ Essentials
 *** NOTICE: Code has not been implemented, please add support if you would like to see a release ***
 
 * [See the docs](https://mybatis.org/couchbase-cache/)
+
+As of 11/25/2024, this code has never been released and we have been keeping it up to date for really no reason.  It does not have the code that would support couchbase implemented and no one has come forward that would like it.  We are therefore archiving this repo but if you find that it might be useful, please contact us and we may reconsider provided code support is provided that would make it usable.
